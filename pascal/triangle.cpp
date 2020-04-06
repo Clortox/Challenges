@@ -30,8 +30,8 @@ int main(int argc, char** argv) {
     std::cout << "Position?" << std::endl;
     std::cin >> pos;
     //indexing begins at zero
-    //so basically we add one pos per row, so pros can never be bigger then row
-    //they grow togehter
+    //so basically we add one pos per row, so pos can never be bigger then row
+    //they grow together
     if(pos > row){
 	std::cout << "Invalid value! The pos must be less then or equal to row" << std::endl;
 	std::cout << "Quiting" << std::endl;
